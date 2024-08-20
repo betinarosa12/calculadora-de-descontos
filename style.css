@@ -1,0 +1,50 @@
+body {
+  background-color: aliceblue;
+  padding: 0%;
+  margin: 0%;
+}
+
+.bloco {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.elementos {
+  margin-top: 300px;
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: 50px;
+  background-color: rgb(84, 119, 150);
+  width: 500px;
+  height: 150px;
+}
+
+.titulo {
+  text-align: center;
+  color: aliceblue;
+  font-size: 35px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.botao {
+  height: 21px;
+  border-style: none;
+  background-color: white;
+  padding: 2px;
+  color: gray;
+  border-radius: 3px;
+  border: 1px solid black;
+}
+
+#valor {
+  padding: 2px;
+  border-radius: 3px;
+  border-style: none;
+  border: 1px solid black;
+}
+
+input::placeholder {
+  color: gray;
+  padding: 4px;
+}
